@@ -36,7 +36,7 @@ export function Navbar() {
           href={DISCORD_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 rounded bg-violet-400 px-5 py-3 text-xs font-semibold text-black transition hover:bg-violet-300"
+          className="hidden items-center gap-2 rounded bg-violet-400 px-5 py-3 text-xs font-semibold text-black transition hover:bg-violet-300 sm:inline-flex"
         >
           <MessageCircle size={17} />
           Rejoindre notre Discord
